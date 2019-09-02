@@ -94,6 +94,10 @@ main {
     background-color: rgb(255, 94, 0);
 }
 
+main section {
+    margin-bottom: 20px;
+}
+
 .sideBar {
     width: 320px;
     float: left;
@@ -129,4 +133,12 @@ main {
     width: 50%;
     float: left;
     padding: 2%;
+}
+
+#publicidad div div {
+    margin: 0 0 -1% 0;
+}
+
+#publicidad div div img {
+    width: fit-content;
 }
