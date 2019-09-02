@@ -99,7 +99,34 @@ main {
     float: left;
 }
 
-.sideBar h2 {
+.sideBar * {
     width: 100%;
+    margin: 0px;
+}
+
+.sideBar h2{
     background-color: white;
+    padding: 2%;
+}
+
+.sideBar div {
+    margin: 10px 0 0 0;
+}
+
+.sideBar div div{
+    background-color: white;
+    margin: 0 0 1px 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.sideBar div div img {
+    width: 25%;
+    float: left;
+}
+
+.sideBar div div p {
+    width: 50%;
+    float: left;
+    padding: 2%;
 }
